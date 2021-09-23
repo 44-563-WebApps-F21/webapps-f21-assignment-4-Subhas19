@@ -1,0 +1,107 @@
+.produced{
+    font-family:sans-serif;
+    color: brown;
+}
+
+.act-name{
+    font-family:sans-serif;
+    color:chocolate;
+    text-shadow: 2px 2px #ff0000; 
+}
+
+.act{
+    font-family:sans-serif;
+    color:cornflowerblue;  
+}
+
+.speech{
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+}
+
+.stage-direction{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: lightgrey;
+}
+
+.name{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.stage-direction:hover{
+    background-color:lightgrey;
+    color:rgb(240, 227, 240);
+}
+.name{
+    font-size: medium;
+    text-shadow: 2px 2px #ff0000;
+    color: black;
+}
+.prince{
+    font-size: medium;
+    color:mediumpurple;
+}
+.count{
+    font-size: medium;
+    color:salmon;
+}
+
+.marq{
+    font-size:medium;
+    color:teal;
+}
+
+.baron{
+    font-size:medium;
+    color:turquoise;
+}
+
+.gen{
+    font-size:medium;
+    color:palegreen;
+}
+/* table,
+th,
+td {
+    border: 1px solid black;
+} */
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: auto;
+    margin: left;
+    text-align: center;
+    padding: 15px;
+    border-spacing: 5px;
+    background-color: whitesmoke;
+  }
+
+tr:nth-child(odd)
+{
+    background-color: #e2e2e2;
+}
+
+th{
+    background-color:lightskyblue;
+}
+
+td{
+    background-color: whitesmoke;
+} 
+
+.name:hover{
+    background-color: goldenrod;
+    color: #134585;
+}
+
+img{
+    border-radius: 10px;
+    margin-left: 30px;
+    width:600px;
+    height: 400px;
+}
